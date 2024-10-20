@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+	</head>
+<body>
+<h1>                                 <h1>
+<div><input type="text" id="expressao" placeholder="0" readonly/></div>
+<div class="calculador">
+
+<Button onclick="inserir('7')">7</Button>
+<Button onclick="inserir('8')">8</Button>
+<Button onclick="inserir('9')">9</Button>
+<Button onclick="inserir('/')" id="divisao">/</Button>
+
+<Button onclick="inserir('4')">4</Button>
+<Button onclick="inserir('5')">5</Button>
+<Button onclick="inserir('6')">6</Button>
+<Button onclick="inserir('*')" id="veses">X</Button>
+
+<Button onclick="inserir('1')">1</Button>
+<Button onclick="inserir('2')">2</Button>
+<Button onclick="inserir('3')">3</Button>
+<Button onclick="inserir('-')" id="menos">-</Button>
+
+<Button onclick="inserir('0')">0</Button>
+<Button onclick="inserir('.')">.</Button>
+<Button onclick="calcular()" id="calc">=</Button>
+<Button onclick="inserir('+')" id="mais">+</Button>
+
+<Button onclick="backspace()" id="backspace"><img src="fotos/backspace.png" id="backfoto"/></Button>
+<Button onclick="limpar()">AC</Button>
+
+</div>
+<p></p>
+<footer>by Hamyela <p> Copyright 2024 </p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
